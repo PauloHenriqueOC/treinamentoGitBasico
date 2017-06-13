@@ -7,9 +7,16 @@ class Player {
   play(){
     console.log('Playing '+this.currentSong);
   }
+  
   //TODO: Add Pause()
+  pause(){
+    console.log('Paused '+this.currentSong);
+  }
 
   //TODO: Add Stop()
+  stop(){
+    console.log('Stoped '+this.currentSong);
+  }
 
   add(song){
     this.playlist.push(song);
