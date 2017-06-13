@@ -12,6 +12,7 @@ class Player {
   //TODO: Add Pause()
   pause(){
     console.log('Paused '+this.currentSong);
+    this.state = 'PAUSED';
   }
 
   //TODO: Add Stop()
